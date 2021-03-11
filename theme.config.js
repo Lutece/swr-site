@@ -12,7 +12,8 @@ const Vercel = ({ height = 20 }) => (
 
 const TITLE_WITH_TRANSLATIONS = {
   'en-US': 'React Hooks library for data fetching',
-  'zh-CN': '用于数据请求的 React Hooks 库'
+  'zh-CN': '用于数据请求的 React Hooks 库',
+  'ko-KR': 'Data-fetching을 위한 리액트 훅스 라이브러리'
 }
 
 export default {
@@ -91,6 +92,8 @@ export default {
     switch (locale) {
       case 'zh-CN':
         return '在 GitHub 上编辑本页'
+      case 'ko-KR':
+        return 'Github에서 이 페이지를 수정하실 수 있습니다' 
       default:
         return 'Edit this page on GitHub'
     }
@@ -109,6 +112,7 @@ export default {
   },
   i18n: [
     { locale: 'en-US', text: 'English' },
-    { locale: 'zh-CN', text: '简体中文' }
+    { locale: 'zh-CN', text: '简体中文' },
+    { locale: "ko-KR", text: '한글' }
   ]
 }

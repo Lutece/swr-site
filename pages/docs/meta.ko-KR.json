@@ -1,0 +1,14 @@
+{
+  "options": "옵션",
+  "global-configuration": "전역 설정",
+  "data-fetching": "Data Fetching",
+  "error-handling": "Error Handling",
+  "revalidation": "Auto Revalidation",
+  "conditional-fetching": "Conditional Data Fetching",
+  "arguments": "Arguments",
+  "mutation": "Mutation",
+  "pagination": "Pagination",
+  "prefetching": "Prefetching",
+  "with-nextjs": "Usage with Next.js",
+  "suspense": "Suspense"
+}
